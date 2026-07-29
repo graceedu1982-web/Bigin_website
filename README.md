@@ -1,2 +1,5 @@
-# Bigin_website
-Bigin website for testing form link
+# Bigin website
+
+A simple Verdant Capital page for testing a form link.
+
+Open `index.html` in a browser to view the page.

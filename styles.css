@@ -1,0 +1,85 @@
+:root {
+  color: #17382b;
+  background: #f4f1e8;
+  font-family: Georgia, "Times New Roman", serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  width: min(100% - 2rem, 68rem);
+  margin-inline: auto;
+  padding: 5rem 0;
+}
+
+.hero {
+  min-height: 65vh;
+  display: grid;
+  place-content: center;
+  justify-items: start;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: #6d7c62;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 12ch;
+  margin-bottom: 1rem;
+  font-size: clamp(3.5rem, 10vw, 7.5rem);
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+}
+
+.intro {
+  max-width: 35rem;
+  margin-bottom: 2rem;
+  color: #52665b;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.form-link {
+  border: 0;
+  border-radius: 999px;
+  background: #214f3b;
+  color: #fff;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.form-link {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  background: #17382b;
+}
